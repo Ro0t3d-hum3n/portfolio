@@ -116,7 +116,7 @@ export default function Contact({ lang }: { lang: Lang }) {
         {/* Social links */}
         <div style={{ display: 'flex', gap: '1rem', marginTop: '2rem', justifyContent: 'center' }}>
           {[
-            { label: 'LinkedIn', href: 'https://linkedin.com', icon: '💼' },
+            { label: 'LinkedIn', href: 'https://www.linkedin.com/in/hereisbappi/', icon: '💼' },
             { label: 'GitHub', href: 'https://github.com/R0ot3d-hum3n', icon: '🐙' },
             { label: 'HackerOne', href: 'https://hackerone.com', icon: '🔐' },
           ].map(s => (
