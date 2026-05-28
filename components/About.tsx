@@ -44,7 +44,7 @@ export default function About({ lang }: { lang: Lang }) {
                 { icon: '📍', val: t.about.location },
                 { icon: '📞', val: t.about.phone },
                 { icon: '✉️', val: t.about.email },
-                { icon: '🔗', val: 'linkedin.com/in/habibulbashar' },
+                { icon: '🔗', val: 'https://www.linkedin.com/in/hereisbappi/' },
               ].map((c, i) => (
                 <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', padding: '0.5rem 0', borderBottom: i < 3 ? '1px solid var(--border)' : 'none' }}>
                   <span style={{ fontSize: '1rem', opacity: 0.8 }}>{c.icon}</span>
